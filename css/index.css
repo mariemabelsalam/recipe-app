@@ -1,0 +1,59 @@
+:root {
+  --main-color: #ff7043;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #1f1f1f;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+header .navbar .navbar-brand {
+  color: var(--main-color);
+}
+
+.form-control:focus {
+  border-color: var(--main-color);
+  box-shadow: 0 0 0 0.2rem rgba(255, 112, 67, 0.25);
+}
+
+.card {
+  background-color: #1e1e1e;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.01);
+}
+img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.card-title  ,  .modal-title{
+  color: var(--main-color);
+}
+
+.btn-custom {
+  background-color: var(--main-color);
+  transition: 0.3s;
+}
+
+.btn-custom:hover{
+  background-color: #e64a19;
+}
